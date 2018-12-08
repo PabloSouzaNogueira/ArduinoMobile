@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArduinoProject</string>
+    <string name="notificacao_recebida">Notificação recebida!</string>
+    <string name="sem_notificacao">Ainda não chegou nenhuma notificação!</string>
+
+</resources>

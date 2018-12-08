@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#808080</color>
+    <color name="colorPrimaryDark">#9A9A9D</color>
+    <color name="colorAccent">#CCCCCC</color>
+    <color name="colorArduino">#00979D</color>
+
+</resources>

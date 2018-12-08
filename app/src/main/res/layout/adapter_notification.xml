@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_rounded_white"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notificacao_recebida"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TV_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="#2B872D"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="12/09/2019 às 18:30:43" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
